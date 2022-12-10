@@ -3,13 +3,14 @@
     padding: 0;
     background-color: black;
     box-sizing: border-box;
-    border-top: 5px solid  gray;
-    border-bottom: 5px solid  gray;
+    border-top: 5px solid  rgb(57, 57, 57);
+    border-bottom: 5px solid  rgb(57, 57, 57);
 }
 
 
 .ques1 {
     width: 50%;
+    
     margin: 10px auto;
     
    
@@ -38,7 +39,7 @@
 .line1  {
     background-color: #fff;
     width: 2.2rem;
-    height: 6px;
+    height: 2px;
     z-index: 1;
     border-radius: 2px;
 }
@@ -46,19 +47,19 @@
 .line2 {
     background-color: #fff;
     width: 2.2rem;
-    height: 6px;
+    height: 2px;
     transform: translateY(-4px) rotate(90deg);
     border-radius: 2px;
 }
 
 .lines:hover .line1  {
-    transform: translateY(3px) rotate(45deg);
-    transition: 0.2s ease-in;
+    transform: translateY(1px) rotate(45deg);
+    transition: 0.2s ease-out;
 }
 
 .lines:hover .line2 {
-    transform: translateY(-3px) rotate(135deg);
-    transition: 0.2s ease-in;
+    transform: translateY(-1px) rotate(135deg);
+    transition: 0.2s ease-out;
 }
 
 
@@ -72,10 +73,12 @@
     color: #fff;
    position: absolute;
     display: none;
+    transition: 0.3s ease;
     
 }
 
 .lines:hover .answer1{
+   
     display: block;
     z-index: 1;
 }
@@ -84,4 +87,21 @@ label {
 }
 .get-started {
     margin-bottom: 20px;
+}
+
+@media  screen and (max-width:600px) {
+    .ques1 {
+        width: 100%;
+        height: auto;
+    }
+    .get-started {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .get-started > input {
+        margin-bottom: 10px;
+    }
+    
 }

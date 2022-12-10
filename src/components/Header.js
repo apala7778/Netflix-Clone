@@ -4,7 +4,7 @@ import logo from "../components/netflix.png";
 const Header = () => {
   return (
     <div className="container"> <div className="content">
-      <header>
+      <header className="head">
         <div className="logo">
           <img src={logo} alt="logo" width="175px" height="80px" />
         </div>
@@ -27,7 +27,7 @@ const Header = () => {
 
       <main className="main">
         <div className="main--des">
-          <h1>Unlimited movies , TV shows and more. </h1>
+          <h1>Unlimited movies, TV shows and more. </h1>
           <p className="main-para">
           Watch anywhere. Cancel anytime.
           </p>
