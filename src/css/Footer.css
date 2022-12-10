@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    color: gray;
-    border-top: 5px solid gray;
-    border-bottom: 5px solid gray;
+    color: rgb(154, 154, 154);
+    border-top: 5px solid rgb(57, 57, 57);
+    border-bottom: 5px solid rgb(57, 57, 57);
 }
 
 label {
@@ -29,6 +29,7 @@ label span:hover{
     padding-left: 200px;
     padding-right: 200px;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 nav li {

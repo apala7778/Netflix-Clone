@@ -12,7 +12,7 @@ const Hero = () => {
         <span>
           <h1>Enjoy on your TV.</h1>
           <p>
-            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            Watch on smart TVs,PlayStation, Xbox,Chromecast, Apple TV, Blu-ray
             players and more.
           </p>
         </span>
